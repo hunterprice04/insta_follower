@@ -63,5 +63,4 @@ class InstaBot:
             person.find_element_by_xpath("//button[text()='Follow']").click()
 
 bot = InstaBot(usr, pw)
-# bot.follow_all('utk.tce')
-bot.follow_all('x.morganprice.x')
+bot.follow_all('utk.tce')
